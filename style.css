@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+.link-hover-center a {
+    display: flex;
+    margin: 8px;
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    color: #909090;
+    margin-bottom: 20px;
+}
+.link-hover-center a:after {
+    display: block;
+    content: "";
+    background-color: #909090;
+    height: 3px;
+    width: 0%;
+    left: 50%;
+    position: absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.link-hover-center a:hover:after,
+.link-hover-center a:focus:after {
+    width: 100%;
+}
+
+body {
+    background-image: url(img/1BACK.jpg);
+    font-family: 'Comfortaa', cursive;
+    padding: 100px 0;
+}
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+h3.clip {
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+}
+p {
+    line-height: 0.5;
+}
+p.clip {
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+}
+img {
+    margin-bottom: 5%;
+}
+.container {
+    width: 800px;
+    border: 10px solid #ffffff;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 5px solid #909090;
+    
+}
+.header {
+    display: flex;
+    height: 100px;
+}
+.titleblock {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+}
+.album {
+    height: 250px;
+    width: 180px;
+    text-decoration-line: none;
+    /*border: 2px solid blue;*/
+    padding: 10px 10px;
+}
+.album:hover{
+    background: #505050;
+    transition: background .3s ease;
+}
+
+.lst {
+    white-space: wrap;
+}
+
+.nav {
+    display: flex;
+    background: #909090;
+    margin: 8px;
+}
+.nav ul {
+    display: flex;
+    width: 90%;
+    background: #909090;
+    
+}
+.nav li {
+    
+}
+.nav li a {
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    color: #404040;
+    font-weight: bold;
+    /*border-right: 1px solid;*/
+    transition: background .3s ease;
+}
+.contwrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav li a:hover {
+    background: #505050;
+}

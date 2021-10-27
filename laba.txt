@@ -1,0 +1,31 @@
+
+На первой лабе нужно:
+1. Зарегистрироваться в GitHub.
+2. Рассмотреть принципы работы в GitHub.
+3. Сделать сайт с использованием html+css 
+(без использования языка программирования).
+Нужно использовать как можно больше тегов, 
+но при этом их применение должно быть осмыслено. 
+Сайт должен иметь какое-то применение, т.е. тематику и цель. 
+Например: новостной, тематический, блог, визитка и т.п. 
+Желательно сделать многостраничный сайт. 
+Готовую работу выложить на GitHub. 
+Подготовить отчет: отдельно о сайте и отдельно про GitHub.
+
+
+HTML/CSS Основы
+https://www.youtube.com/watch?v=CvEttNvty0U&ab_channel=BrainsCloud
+
+Сайт
+https://www.youtube.com/watch?v=ynnFWQBuVAU&t=220s&ab_channel=temofart
+
+Учебник HTML и CSS
+http://old.code.mu/books/css/
+
+Инструкция по размещению сайта на GitHub Pages
+https://netology-code.github.io/guides/github-pages/
+
+GIT Book
+https://git-scm.com/book/ru/v2
+
+https://github.com/
